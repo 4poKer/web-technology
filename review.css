@@ -1,0 +1,97 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+header { 
+    text-align: center;
+    margin: 10px auto 15px;
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    width: 950px;   
+}
+
+footer {
+    margin: 15px auto;
+    height: 50px;
+    color:white;
+    width:950px;
+    background-color: rgb(37,37,37);
+    border-radius: 5px;  
+    line-height: 50px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{color: cornflowerblue;} 
+
+nav{   
+    text-align: center;
+    height: 50px;
+    color:white;
+    width:950px;
+    background-color: rgb(37,37,37);
+    border-radius: 5px;
+    line-height: 50px;
+    width:950px;
+    margin: 0px auto;
+}
+
+nav a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+}
+
+nav a:hover{color: red;}
+
+section{
+    background-color: rgb(217,217,217);
+    width:950px;
+    margin: 15px auto 0px;
+    border-radius: 5px;
+}
+
+img{border-radius: 5px 5px 0px 0px;}
+
+.feedback h4{padding-top: 20px;}
+
+.feedback h4,p{padding-left: 150px;}
+
+.feedback input{
+    float: right;
+    margin-right: 540px ;
+    width: 150px;
+    border: 1px solid rgb(37,37,37);
+}
+
+.feedback textarea{
+    margin-left: 150px; 
+    width: 255px;
+    height: 150px;
+    max-width: 650px; 
+    border: 1px solid rgb(37,37,37);
+    margin-top: -5px;
+}
+
+.feedback button{
+    margin-top: 15px;
+    margin-left: 300px;
+    margin-bottom: 15px;
+    color: white;
+    background-color: rgb(37,37,37);
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+#comment{padding-top: 5px}
+
+span{color:red !important;}
