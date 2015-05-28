@@ -1,0 +1,129 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+header { 
+    text-align: center;
+    margin: 10px auto 15px;
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    width: 950px;   
+}
+
+footer {
+    margin: 15px auto;
+    height: 50px;
+    color:white;
+    width:950px;
+    background-color: rgb(37,37,37);
+    border-radius: 5px;  
+    line-height: 50px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{color: cornflowerblue;} 
+
+nav{   
+    text-align: center;
+    height: 50px;
+    color:white;
+    width:950px;
+    background-color: rgb(37,37,37);
+    border-radius: 5px;
+    line-height: 50px;
+    margin: 0px auto;
+}
+
+nav a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+}
+
+nav a:hover{color: red;}
+
+
+img{}
+
+section{
+    background-color: rgb(217,217,217);
+    width:950px;
+    margin: 15px auto 0px;
+    border-radius: 5px;
+}
+
+section{text-align: justify; text-indent: 15px;}
+
+span{color:red; font-style: italic;}
+
+#bottle{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 30px;    
+    -webkit-animation:spin 2s infinite;
+    -webkit-animation-timing-function:linear;
+}
+
+#action1{
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 530px; 
+    -webkit-animation:spin 2s infinite;
+    -webkit-animation-timing-function:linear;
+    color:red;
+}
+
+@-webkit-keyframes spin {
+    0%   {
+    -webkit-transform: scale(1);
+}
+25%  {
+    -webkit-transform: scale(0.85);
+}
+50%  {
+    -webkit-transform: scale(0.7);
+}
+75%  {
+    -webkit-transform: scale(0.85);
+}
+100% {
+    -webkit-transform: scale(1);
+}
+}
+
+#close {
+    float: right;
+}
+
+#white_block {
+    z-index: 120;
+    padding: 10px;
+    background: white;
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    margin-left: -305px;
+    border-radius: 5px;
+}
+
+
+#price{color:red;}
+#name{text-align: center;margin-top: 0px;}
+#text{width: 575px; margin-left: 15px; text-align: justify;}
+#price{float:right; margin-right: 15px !important; margin-bottom: 0px;}
+
+body,html {
+    width: 100% !important;
+    height: 100% !important;
+}
+
